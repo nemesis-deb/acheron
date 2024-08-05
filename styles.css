@@ -1,0 +1,88 @@
+@font-face {
+    font-family: roboto;
+    src: url(RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(RobotoMono-Bold.ttf);
+}
+
+.flex-container {
+    padding: 0;
+    margin-left: 200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.wrap { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}  
+
+fieldset {
+    color: #fbfafb; 
+    border-color: #19181b;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 50px;
+    margin-bottom: 1rem;
+    width:fit-content;
+    background-color: #09080a;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+body {
+    font: 1rem #fbfafb;
+    font-family: roboto;
+    background-color: #09080a;
+    background-image: radial-gradient(#19181b 0.9px, transparent 1px);
+    background-size: 16px 16px;
+    display: flex;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #19181b;
+    color: #fbfafb;
+    background-color: #19181b;
+}
+
+::placeholder {
+    color: #fbfafb;
+}
+
+select {
+    border-radius: 8px;
+    border: 1px solid #19181b;
+    color: #fbfafb;
+    background-color: #19181b;
+}
+
+legend {
+    font-family: roboto-bold;
+}
+
+.wrapper .sidebar{
+    background: #19181b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+h1[id="stars"] {
+    color: #dda909;
+    margin-left: 3rem;
+}
